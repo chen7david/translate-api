@@ -1,0 +1,26 @@
+{
+  "name": "translate-api",
+  "version": "1.0.0",
+  "description": "en-cn translation api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen7david/translate-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chen7david/translate-api/issues"
+  },
+  "homepage": "https://github.com/chen7david/translate-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dict-en-zh": "^0.2.1",
+    "express": "^4.17.1"
+  }
+}
